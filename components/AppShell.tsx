@@ -10,7 +10,7 @@ import {
   Text,
   View,
 } from "react-native";
-import { auth } from "../.expo/lib/firebase";
+import { auth } from "../lib/firebase";
 
 type NavItem = {
   label: string;

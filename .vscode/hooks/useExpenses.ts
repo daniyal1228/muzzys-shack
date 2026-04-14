@@ -1,6 +1,6 @@
 import { collection, onSnapshot } from "firebase/firestore";
 import { useEffect, useState } from "react";
-import { db } from "../../.expo/lib/firebase";
+import { db } from "../../lib/firebase";
 
 export function useExpenses() {
   const [expenses, setExpenses] = useState<any[]>([]);

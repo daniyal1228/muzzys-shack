@@ -2,7 +2,7 @@ import { router, Stack, usePathname } from "expo-router";
 import { onAuthStateChanged, User } from "firebase/auth";
 import { useEffect, useState } from "react";
 import { ActivityIndicator, View } from "react-native";
-import { auth } from "../.expo/lib/firebase";
+import { auth } from "../lib/firebase";
 
 export default function RootLayout() {
   const pathname = usePathname();

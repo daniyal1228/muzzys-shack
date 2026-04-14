@@ -1,9 +1,9 @@
 import { router } from "expo-router";
 import { deleteDoc, doc } from "firebase/firestore";
 import { Pressable, StyleSheet, Text, View } from "react-native";
-import { db } from "../.expo/lib/firebase";
 import { useEmployees } from "../.vscode/hooks/useEmployees";
 import AppShell from "../components/AppShell";
+import { db } from "../lib/firebase";
 
 export default function Employees() {
   const employees = useEmployees();

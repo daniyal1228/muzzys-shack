@@ -3,8 +3,8 @@ import { router } from "expo-router";
 import { addDoc, collection } from "firebase/firestore";
 import { useState } from "react";
 import { Alert, Pressable, StyleSheet, Text, TextInput, View } from "react-native";
-import { db } from "../.expo/lib/firebase";
 import AppShell from "../components/AppShell";
+import { db } from "../lib/firebase";
 
 const categories = [
   "Food Sales",

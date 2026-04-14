@@ -10,8 +10,8 @@ import {
   TextInput,
   View,
 } from "react-native";
-import { db } from "../.expo/lib/firebase";
 import AppShell from "../components/AppShell";
+import { db } from "../lib/firebase";
 
 const categories = [
   "Food & Supplies",

@@ -1,3 +1,5 @@
+import { Ionicons, MaterialIcons } from "@expo/vector-icons";
+import { LinearGradient } from "expo-linear-gradient";
 import { router } from "expo-router";
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { useEffect, useRef, useState } from "react";
@@ -11,9 +13,7 @@ import {
   TextInput,
   View,
 } from "react-native";
-import { LinearGradient } from "expo-linear-gradient";
-import { MaterialIcons, Ionicons } from "@expo/vector-icons";
-import { auth } from "../.expo/lib/firebase";
+import { auth } from "../lib/firebase";
 
 export default function Login() {
   const [email, setEmail] = useState("");

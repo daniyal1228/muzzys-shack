@@ -1,9 +1,9 @@
 import { router } from "expo-router";
 import { deleteDoc, doc } from "firebase/firestore";
 import { Pressable, StyleSheet, Text, View } from "react-native";
-import { db } from "../.expo/lib/firebase";
 import { useExpenses } from "../.vscode/hooks/useExpenses";
 import AppShell from "../components/AppShell";
+import { db } from "../lib/firebase";
 
 const categoryStyles: any = {
   "Food & Supplies": { bg: "#fff2df", text: "#c77700" },
